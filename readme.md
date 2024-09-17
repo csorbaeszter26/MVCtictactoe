@@ -1,9 +1,11 @@
-#MVC szerinti tervezés:
+###MVC szerinti tervezés:
+=============
 
 **main.js:**
 - ez a program belépési pontja, amelyben a kontrollert példányosítottuk
 
 ##[**KONTROLLER:**]
+-------------
 **TTTController.js**
 - a kontrollernek a két feladata: 
 1. modell és view itt kerülnek példányosításra a constructor-ban; 
