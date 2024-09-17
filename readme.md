@@ -1,17 +1,15 @@
-###MVC szerinti tervezés:
-=============
+### MVC szerinti tervezés:
 
 **main.js:**
 - ez a program belépési pontja, amelyben a kontrollert példányosítottuk
 
-##[**KONTROLLER:**]
--------------
+## [**KONTROLLER:**]
 **TTTController.js**
 - a kontrollernek a két feladata: 
 1. modell és view itt kerülnek példányosításra a constructor-ban; 
 2. esemenyKezelo(): eseménykezelőre való feliratkozás, ahol a modell és view metódusai kerülnek meghívásra *(itt csak újrapéldányosítottunk, lsd. "new Palya.js...")*
 
-##[**MODELL:**]
+## [**MODELL:**]
 **TTTModell.js**
 - csak adatokkal foglalkozik
 - leírja az aktuális állapotot és előállítja a következő állapotot
@@ -20,7 +18,7 @@
 2. a getList(), ami visszaadja nekünk a listát; 
 3. és melyet a lepteto() metódusban fogunk használunk fel, amely ennek a listának az indexedik elemére beírja az aktuális elemet, növeli egyel a lépést, és megni, hogy mi lesz a következő lépés
 
-##[**VIEW:**]
+## [**VIEW:**]
 - az aktuális állapot megjelenítésével a következő két osztály foglalkozik *(miután a kontroller lekérte az aktuális állapotot, és példányosította a Pályát)*
 - mindehhez az információkat a kontrolleren keresztül kapják, valamilyen szülőelembe *(lsd. "szuloElem")*
 **Mezo.js**
