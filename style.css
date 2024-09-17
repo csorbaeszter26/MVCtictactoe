@@ -1,0 +1,21 @@
+*{
+    margin: auto;
+    place-content: center;
+    place-items: center;
+    text-align: center;  
+}
+
+.mezo{
+    outline: black;
+    width: 100px;
+    height: 100px;
+    
+}   
+
+.palyamezo{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 300px;
+      
+
+}
